@@ -1,0 +1,15 @@
+# Compiled class file
+*.class
+
+#idea files
+*.iml
+*.ipr
+*.iws
+/.idea
+#logs
+/logs
+
+#build folders
+build/
+out/
+.gradle/
