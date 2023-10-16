@@ -27,6 +27,8 @@ public class EmployeeController implements IEmployeeController {
     private static final String BASE_URL = "https://dummy.restapiexample.com";
     private final RestTemplate restTemplate;
 
+    // TODO: extract some of the logic (making requests, filtering, etc.) to separate classes
+
     public EmployeeController() {
         this.restTemplate = new RestTemplate();
     }

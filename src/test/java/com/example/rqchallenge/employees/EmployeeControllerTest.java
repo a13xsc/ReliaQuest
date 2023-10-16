@@ -18,6 +18,9 @@ class EmployeeControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
+    // TODO: add unit tests (in a separate file), where the external REST API is mocked,
+    // so that we can check the logic more thoroughly
+
     @Test
     void getAllEmployees() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders
